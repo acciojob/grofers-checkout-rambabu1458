@@ -6,7 +6,7 @@ const getSum = () => {
 //Add your code here
    const table=document.querySelector("table");
 
-        let priceElements=table.querySelectorAll(".prices");
+        let priceElements=table.querySelectorAll(".price");
 
         let total=0;
         priceElements.forEach(price=>{
